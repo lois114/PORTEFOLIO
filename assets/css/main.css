@@ -1,0 +1,558 @@
+/* Header */
+#head { background:#181015 url( ../images/g32K.gif) no-repeat; background-size: cover; min-height:560px; text-align: center; padding-top:240px; color:white; font-family:"Open sans", Helvetica, Arial; font-weight:300; }
+#head.secondary { height:100px; min-height: 100px; padding-top:0px; }
+	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:44px; margin-bottom:6px; color:white; line-height:1.15em; } 
+	#head .tagline { color:rgba(255,255,255,0.75); margin-bottom:25px; }
+		#head .tagline a { color:#fff; } 
+	#head .btn { margin-bottom:10px;}
+	#head .btn-default { text-shadow: none; background:transparent; color:rgba(255,255,255,.5); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); background: transparent; }
+		#head .btn-default:hover,
+		#head .btn-default:focus { color:rgba(255,255,255,.8); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.8); background: transparent; }
+		#head .btn-default:active, 
+		#head .btn-default.active { color:#fff; -webkit-box-shadow:inset 0px 0px 0px 3px #fff; -moz-box-shadow:inset 0px 0px 0px 3px #fff; box-shadow:inset 0px 0px 0px 3px #fff; background: transparent; }
+
+@media (max-width: 767px) {
+	#head { min-height:420px; padding-top:160px; }
+	#head .lead { font-size: 34px; }
+}
+
+
+/* Autohide navbar */
+.slideUp { top:-100px; }
+.headroom { -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; }
+
+
+/* Highlights (in jumbotron in most cases) */
+.highlight { margin-top:40px; }
+	.h-caption { text-align: center; } 
+	.h-caption i { display:block; font-size: 54px; color:#382526; margin-bottom:36px; }
+	.h-caption h4 { color:#382526; font-size: 16px; font-weight: bold; margin-bottom:20px; }
+	
+
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 { font-family:"Open sans", Helvetica, Arial; }
+h1, .h1, h2, .h2, h3, .h3 { margin-top:30px; } 
+blockquote { font-style: italic; font-family: Georgia; color:#999; margin:30px 0 30px; }
+label { color: #777; }
+.thin { font-weight:300; }
+.page-title { margin-top:20px; font-weight:300; }
+.text-muted { color:#888; }
+.breadcrumb { background:none; padding:0; margin:30px 0 0px 0; }
+ul.list-spaces li{ margin-bottom:10px; }
+
+/* Helpers */
+.container-full { margin: 0 auto; width: 100%; }
+.top-space { margin-top: 60px; }
+.top-margin { margin-top:20px; }
+
+img { max-width:100%; }
+img.pull-right { margin-left: 10px; }
+img.pull-left { margin-right: 10px; }
+#map { width:100%; height:280px; }
+#social { margin-top:50px; margin-bottom:50px; }
+	#social .wrapper { width:340px; margin:0 auto; }
+
+/* Main content block */
+.maincontent { }
+
+/* Sidebars */
+.sidebar { padding-top:36px; padding-bottom:30px; }
+	.sidebar .widget { margin-bottom:20px; }
+	.sidebar h1, .sidebar .h1, .sidebar h2, .sidebar .h2, .sidebar h3, .sidebar .h3 { margin-top:20px; } 
+
+/* Footer */
+.footer1 { background: #e5e5e5bb; padding: 30px 0 0 0; font-size: 12px; color: rgba(62, 59, 59, 0.61); }
+	.footer1 a { color: rgba(62, 59, 59, 0.61); }
+		.footer1 a:hover {color: #fff; }
+	.footer1 .widget { margin-bottom:30px; }		
+	.footer1 .widget-title { font-size: 17px; font-weight: bold; color: rgb(62, 59, 59); margin: 0 0 20px; }
+	.footer1 .entry-meta { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin: 0 0 35px 0; padding: 2px 0; color: #888888; font-size: 12px; font-size: 0.75rem; }
+		.footer1 .entry-meta a { color: #333333; }
+		.footer1 .entry-meta .meta-in { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 10px 0; }
+	.follow-me-icons { font-size:30px; }		
+		.follow-me-icons i { float:left; margin:0 10px 0 0; }		
+
+.footer2 { background: #000000ca; padding: 15px 0; color: #777; font-size: 12px; }
+	.footer2 a { color: #aaa; }
+		.footer2 a:hover { color: #fff; }
+		.footer2 p { margin: 0; }
+
+	.widget-simplenav { margin-left:-5px; }		
+	.widget-simplenav a{ margin:0 5px; }		
+
+
+	Previous DemoBest jQueryCodelab 
+	Timeline Style : Demo 62
+	2019
+	Web Designing
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa dolore explicabo fuga pariatur gjkfdgj quis reprehenderit tenetur vel!
+	
+	2018
+	Web Development
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa dolore explicabo fuga pariatur gjkfdgj quis reprehenderit tenetur vel!
+	
+	2017
+	Java Script
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa dolore explicabo fuga pariatur gjkfdgj quis reprehenderit tenetur vel!
+	
+	2016
+	Web Designing
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa dolore explicabo fuga pariatur gjkfdgj quis reprehenderit tenetur vel!
+	
+	HTML (Icons : Fontawesome & CSS Framwork: Bootstrap)
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12
+	13
+	14
+	15
+	16
+	17
+	18
+	19
+	20
+	21
+	22
+	23
+	24
+	25
+	26
+	27
+	28
+	29
+	30
+	31
+	32
+	33
+	34
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="main-timeline">
+					<div class="timeline">
+						<a href="" class="timeline-content">
+							<div class="timeline-icon">
+								<i class="fa fa-globe"></i>
+							</div>
+							<div class="timeline-year"> 2019 </div>
+							<div class="inner-content">
+								<h3 class="title">Web Designing</h3>
+								<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa
+									dolore explicabo fuga pariatur gjkfdgj  quis reprehenderit tenetur vel!</p>
+							</div>
+						</a>
+					</div>
+					<div class="timeline">
+						<a href="" class="timeline-content">
+							<div class="timeline-icon">
+								<i class="fa fa-rocket"></i>
+							</div>
+							<div class="timeline-year"> 2018 </div>
+							<div class="inner-content">
+								<h3 class="title">Web Development</h3>
+								<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa
+									dolore explicabo fuga pariatur gjkfdgj  quis reprehenderit tenetur vel!</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	CSS (Fonts required: Source Sans Pro.)
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12
+	13
+	14
+	15
+	16
+	17
+	18
+	19
+	20
+	21
+	22
+	23
+	24
+	25
+	26
+	27
+	28
+	29
+	30
+	31
+	32
+	33
+	34
+	35
+	36
+	37
+	38
+	39
+	40
+	41
+	42
+	43
+	44
+	45
+	46
+	47
+	48
+	49
+	50
+	51
+	52
+	53
+	54
+	55
+	56
+	57
+	58
+	59
+	60
+	61
+	62
+	63
+	64
+	65
+	66
+	67
+	68
+	69
+	70
+	71
+	72
+	73
+	74
+	75
+	76
+	77
+	78
+	79
+	80
+	81
+	82
+	83
+	84
+	85
+	86
+	87
+	88
+	89
+	90
+	91
+	92
+	93
+	94
+	95
+	96
+	97
+	98
+	99
+	100
+	101
+	102
+	103
+	104
+	105
+	106
+	107
+	108
+	109
+	110
+	111
+	112
+	113
+	114
+	115
+	116
+	117
+	118
+	119
+	120
+	121
+	122
+	123
+	124
+	125
+	126
+	127
+	128
+	129
+	130
+	131
+	132
+	133
+	134
+	135
+	136
+	137
+	138
+	139
+	140
+	141
+	142
+	143
+	144
+	145
+	146
+	147
+	148
+	149
+	150
+	151
+	152
+	153
+	154
+	155
+	156
+	157
+	158
+	159
+	160
+	161
+	162
+	163
+	164
+	165
+	166
+	167
+	168
+	169
+	170
+	171
+	172
+	173
+	174
+	175
+	176
+	177
+	178
+	179
+	180
+	181
+	182
+	183
+	184
+	185
+	186
+	187
+	188
+	189
+	190
+	191
+	192
+	:root{
+		--color1: #FD8F33;
+		--color2: #0DC8AB;
+		--color3: #05B0DE;
+		--color4: #8E7CCC;
+	}
+	.main-timeline{
+		font-family: 'Source Sans Pro', sans-serif;
+		position: relative;
+	}
+	.main-timeline:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+	.main-timeline .timeline{
+		width: 50.1%;
+		padding: 20px 0 20px 100px;
+		float: right;
+		position: relative;
+		z-index: 1;
+	}
+	.main-timeline .timeline:before,
+	.main-timeline .timeline:after{
+		content: '';
+		background: var(--color1);
+		height: 100%;
+		width: 28px;
+		position: absolute;
+		left: -11px;
+		top: 0;
+	}
+	.main-timeline .timeline:after{
+		background: var(--color1);
+		height: 18px;
+		width: 200px;
+		box-shadow: 0 0 10px -5px #000;
+		transform:  translateY(-50%);
+		top: 50%;
+		left: -90px;
+	}
+	.main-timeline .timeline-content{
+		color: #517d82;
+		background-color: var(--color1);
+		padding: 0 0 0 80px;
+		box-shadow: 0 0 20px -10px #000;
+		border-radius: 10px;
+		display: block;
+	}
+	.main-timeline .timeline-content:hover{
+		color: #517d82;
+		text-decoration: none;
+	}
+	.main-timeline .timeline-icon{
+		color: #fff;
+		background-color: var(--color1);
+		font-size: 35px;
+		text-align: center;
+		line-height: 62px;
+		height: 60px;
+		width: 60px;
+		border-radius: 50%;
+		transform: translateY(-50%);
+		position: absolute;
+		left: -100px;
+		top: 50%;
+		z-index: 1;
+	}
+	.main-timeline .timeline-year{
+		color: #517d82;
+		background-color: #fff;
+		font-size: 35px;
+		font-weight: 600;
+		text-align: center;
+		line-height: 93px;
+		height: 113px;
+		width: 113px;
+		border: 6px solid var(--color1);
+		box-shadow: 0 0 10px -5px #000;
+		border-radius: 50%;
+		transform: translateY(-50%);
+		position: absolute;
+		left: 50px;
+		top: 50%;
+		z-index: 1;
+	}
+	.main-timeline .inner-content{
+		background-color: #fff;
+		padding: 10px;
+	}
+	.main-timeline .title{
+		color: var(--color1);
+		font-size: 22px;
+		font-weight: 600;
+		margin: 0 0 5px 0;
+	}
+	.main-timeline .description{
+		font-size: 14px;
+		letter-spacing: 1px;
+		margin: 0;
+	}
+	.main-timeline .timeline:nth-child(even){
+		padding: 20px 100px 20px 0;
+		float: left;
+	}
+	.main-timeline .timeline:nth-child(even):before{
+		left: auto;
+		right: -14.5px;
+	}
+	.main-timeline .timeline:nth-child(even):after{
+		left: auto;
+		right: -90px;
+	}
+	.main-timeline .timeline:nth-child(even) .timeline-content{ padding: 0 80px 0 0; }
+	.main-timeline .timeline:nth-child(even) .timeline-icon{
+		left: auto;
+		right: -100px;
+	}
+	.main-timeline .timeline:nth-child(even) .timeline-year{
+		left: auto;
+		right: 50px;
+	}
+	.main-timeline .timeline:nth-child(4n+2):before,
+	.main-timeline .timeline:nth-child(4n+2):after{
+		background: var(--color2);
+	}
+	.main-timeline .timeline:nth-child(4n+2) .timeline-content,
+	.main-timeline .timeline:nth-child(4n+2) .timeline-icon{
+		background-color: var(--color2);
+	}
+	.main-timeline .timeline:nth-child(4n+2) .timeline-year{ border-color: var(--color2); }
+	.main-timeline .timeline:nth-child(4n+2) .title{ color: var(--color2); }
+	.main-timeline .timeline:nth-child(4n+3):before,
+	.main-timeline .timeline:nth-child(4n+3):after{
+		background: var(--color3);
+	}
+	.main-timeline .timeline:nth-child(4n+3) .timeline-content,
+	.main-timeline .timeline:nth-child(4n+3) .timeline-icon{
+		background-color: var(--color3);
+	}
+	.main-timeline .timeline:nth-child(4n+3) .timeline-year{ border-color: var(--color3); }
+	.main-timeline .timeline:nth-child(4n+3) .title{ color: var(--color3); }
+	.main-timeline .timeline:nth-child(4n+4):before,
+	.main-timeline .timeline:nth-child(4n+4):after{
+		background: var(--color4);
+	}
+	.main-timeline .timeline:nth-child(4n+4) .timeline-content,
+	.main-timeline .timeline:nth-child(4n+4) .timeline-icon{
+		background-color: var(--color4);
+	}
+	.main-timeline .timeline:nth-child(4n+4) .timeline-year{ border-color: var(--color4); }
+	.main-timeline .timeline:nth-child(4n+4) .title{ color: var(--color4); }
+	@media only screen and (max-width:1200px){
+		.main-timeline .timeline:before{ left: -12.5px; }
+		.main-timeline .timeline:nth-child(even):before{ right: -14px; }
+	}
+	@media only screen and (max-width:990px){
+		.main-timeline .timeline:before{ left: -12.5px; }
+	}
+	@media only screen and (max-width:767px){
+		.main-timeline .timeline,
+		.main-timeline .timeline:nth-child(even){
+			width: 100%;
+			padding: 20px 0 20px 37px;
+		}
+		.main-timeline .timeline:before{ left: 0; }
+		.main-timeline .timeline:nth-child(even):before{
+			right: auto;
+			left: 0;
+		}
+		.main-timeline .timeline:after,
+		.main-timeline .timeline:nth-child(even) .timeline:after{
+			display: none;
+		}
+		.main-timeline .timeline-icon,
+		.main-timeline .timeline:nth-child(even) .timeline-icon{
+			left: 0;
+			display: none;
+		}
+		.main-timeline .timeline-year,
+		.main-timeline .timeline:nth-child(even) .timeline-year{
+			height: 75px;
+			width: 75px;
+			line-height: 60px;
+			font-size: 25px;
+			left: 1px;
+		}
+		.main-timeline .timeline-content,
+		.main-timeline .timeline:nth-child(even) .timeline-content{
+			padding: 0 0 0 40px;
+		}
+	}
+	License Terms
+	
